@@ -1,11 +1,45 @@
 import React, {useState, useEffect} from 'react';
+import {useTransition, animated} from 'react-spring'
 import myLogo from '../Images/myLogo.png'
 import uwinLogo from '../Images/uwin_logo.jpg'
 
 function TopNav(props){
     const [showMenu, setShowMenu] = useState(false)
     let menu
+
+    let navSize
+    const [scrollY, setScrollY] = useState(0);
+
+    function logit() {
+      setScrollY(window.pageYOffset);
+      console.log(new Date().getTime());
+    }
+  
+    useEffect(() => {
+      function watchScroll() {
+        window.addEventListener("scroll", logit);
+      }
+      watchScroll();
+      return () => {
+        window.removeEventListener("scroll", logit);
+      };
+    });
+    if(scrollY>0){
+        navSize={
+            padding: "1px"
+        };
+        
+    }
+    else{
+        navSize={
+            padding: "2px"
+        };
+    }
+
     if(showMenu==false){
+        navSize={
+            padding: "1px"
+        };
         menu=
         <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto md: hidden">
             <div className="text-sm lg:flex-grow">
@@ -43,38 +77,10 @@ function TopNav(props){
             </div>
         </div>
     }
-  //  const [shrinkMenu, setshrinkMenu] = useState(false)
-        let navSize
-        const [scrollY, setScrollY] = useState(0);
-
-        function logit() {
-          setScrollY(window.pageYOffset);
-          console.log(new Date().getTime());
-        }
-      
-        useEffect(() => {
-          function watchScroll() {
-            window.addEventListener("scroll", logit);
-          }
-          watchScroll();
-          return () => {
-            window.removeEventListener("scroll", logit);
-          };
-        });
-        let transition
-        if(scrollY>0){
-            navSize={
-                padding: "1px"
-            };
-            
-        }
-        else{
-            navSize={
-                padding: "18px"
-            };
-        }
+       
 
     return(
+       
         <nav className="z-50 flex items-center justify-between flex-wrap bg-blue-500 fixed w-full " style={navSize}>
             <div className="flex items-center flex-shrink-0 text-white mr-6">
                 <img className="fill-current mr-0" width="50px" src={myLogo}/>
@@ -86,8 +92,9 @@ function TopNav(props){
                 </button>
             </div>
             {menu}
-            
+        
         </nav>
+
     );
 }
 
