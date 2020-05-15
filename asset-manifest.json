@@ -1,19 +1,25 @@
 {
   "files": {
     "main.css": "/Web-Portfolio/static/css/main.3226e4cb.chunk.css",
-    "main.js": "/Web-Portfolio/static/js/main.c4d05d45.chunk.js",
-    "main.js.map": "/Web-Portfolio/static/js/main.c4d05d45.chunk.js.map",
-    "runtime-main.js": "/Web-Portfolio/static/js/runtime-main.af19ec99.js",
-    "runtime-main.js.map": "/Web-Portfolio/static/js/runtime-main.af19ec99.js.map",
-    "static/js/2.d74f3884.chunk.js": "/Web-Portfolio/static/js/2.d74f3884.chunk.js",
-    "static/js/2.d74f3884.chunk.js.map": "/Web-Portfolio/static/js/2.d74f3884.chunk.js.map",
+    "main.js": "/Web-Portfolio/static/js/main.86c43c04.chunk.js",
+    "main.js.map": "/Web-Portfolio/static/js/main.86c43c04.chunk.js.map",
+    "runtime-main.js": "/Web-Portfolio/static/js/runtime-main.e7edef10.js",
+    "runtime-main.js.map": "/Web-Portfolio/static/js/runtime-main.e7edef10.js.map",
+    "static/js/2.8dfb99f2.chunk.js": "/Web-Portfolio/static/js/2.8dfb99f2.chunk.js",
+    "static/js/2.8dfb99f2.chunk.js.map": "/Web-Portfolio/static/js/2.8dfb99f2.chunk.js.map",
     "index.html": "/Web-Portfolio/index.html",
-    "precache-manifest.ce2e369a03a07bf31fd4fb7ca5238dba.js": "/Web-Portfolio/precache-manifest.ce2e369a03a07bf31fd4fb7ca5238dba.js",
+    "precache-manifest.558781dcf6a699dfa161045366fde853.js": "/Web-Portfolio/precache-manifest.558781dcf6a699dfa161045366fde853.js",
     "service-worker.js": "/Web-Portfolio/service-worker.js",
     "static/css/main.3226e4cb.chunk.css.map": "/Web-Portfolio/static/css/main.3226e4cb.chunk.css.map",
-    "static/js/2.d74f3884.chunk.js.LICENSE.txt": "/Web-Portfolio/static/js/2.d74f3884.chunk.js.LICENSE.txt",
+    "static/js/2.8dfb99f2.chunk.js.LICENSE.txt": "/Web-Portfolio/static/js/2.8dfb99f2.chunk.js.LICENSE.txt",
+    "static/media/About.png": "/Web-Portfolio/static/media/About.12067971.png",
+    "static/media/Category.png": "/Web-Portfolio/static/media/Category.7db86162.png",
+    "static/media/Resume.pdf": "/Web-Portfolio/static/media/Resume.c9a40fa8.pdf",
+    "static/media/Resume_img.png": "/Web-Portfolio/static/media/Resume_img.c860ce92.png",
+    "static/media/Store.png": "/Web-Portfolio/static/media/Store.223a3cdf.png",
     "static/media/bookstore1.jpg": "/Web-Portfolio/static/media/bookstore1.89459957.jpg",
     "static/media/bookstore2.png": "/Web-Portfolio/static/media/bookstore2.6b7be7dd.png",
+    "static/media/chat.jpg": "/Web-Portfolio/static/media/chat.6cac2d5e.jpg",
     "static/media/github_icon.png": "/Web-Portfolio/static/media/github_icon.59fbae94.png",
     "static/media/github_page.png": "/Web-Portfolio/static/media/github_page.c0f94d4d.png",
     "static/media/profile.jpg": "/Web-Portfolio/static/media/profile.a6d5ed8a.jpg",
@@ -21,9 +27,9 @@
     "static/media/uwin_logo.jpg": "/Web-Portfolio/static/media/uwin_logo.268d37f2.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.af19ec99.js",
-    "static/js/2.d74f3884.chunk.js",
+    "static/js/runtime-main.e7edef10.js",
+    "static/js/2.8dfb99f2.chunk.js",
     "static/css/main.3226e4cb.chunk.css",
-    "static/js/main.c4d05d45.chunk.js"
+    "static/js/main.86c43c04.chunk.js"
   ]
 }
