@@ -54,3 +54,33 @@ $animationSpeed: 40s;
 		width: 250px;
 	}
 }
+
+@media (max-width: 988px){
+	.slider{
+		width:820px;
+	}
+}
+
+@media (max-width: 868px){
+	.slider{
+		width:720px;
+	}
+}
+
+@media (max-width: 768px){
+	.slider{
+		width:620px;
+	}
+}
+@media (max-width: 640px) {
+	.slider{
+		height:90px;
+		width:380px;
+	}
+}
+@media (max-width: 540px) {
+	.slider{
+		height:80px;
+		width:320px;
+	}
+}
