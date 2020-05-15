@@ -56,7 +56,7 @@ function ProjectsPage(props){
               <div className="flex">
                 <div className="flex-shrink-0">
                   <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
-                  <a href="#" target="_blank"><img className="hover:bg-indigo-300 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" src={GitHub}/></a>
+                  <a href="https://github.com/jbcostan/Web-Portfolio" target="_blank"><img className="hover:bg-indigo-300 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" src={GitHub}/></a>
                   </div>
                 </div>
                 <div className="ml-4">

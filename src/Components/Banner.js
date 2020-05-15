@@ -5,6 +5,11 @@ import BookStore1 from '../Images/bookstore1.jpg'
 import GitHub from '../Images/github_page.png'
 import MyLogo from '../Images/myLogo.png'
 import Uwindsor from '../Images/uwin_logo.jpg'
+import About from '../Images/About.png'
+import Store from '../Images/Store.png'
+import Category from '../Images/Category.png'
+import Chat from '../Images/chat.jpg'
+import Resume from '../Images/Resume_img.png'
 function Banner(){
 
     return(
@@ -23,25 +28,25 @@ function Banner(){
                 <img src={BookStore2} height="100" width="200" alt="" />
             </div>
             <div className="slide">
-                <img src={GitHub} height="100" width="250" alt="" />
+                <img src={GitHub} height="100" width="200" alt="" />
             </div>
             <div className="slide">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+                <img src={About} height="100" width="200" alt="" />
             </div>
             <div className="slide">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+                <img src={Store} height="100" width="200" alt="" />
             </div>
             <div className="slide">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+                <img src={Category} height="100" width="200" alt="" />
             </div>
             <div className="slide">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+                <img src={Chat} height="100" width="100" alt="" />
             </div>
             <div className="slide">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+                <img src={Resume} height="100" width="160" alt="" />
             </div>
             <div className="slide">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+                <img src={Uwindsor} height="100" width="200" alt="" />
             </div>
         </div>
 </div>

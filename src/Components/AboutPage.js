@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import imgUrl from '../Images/profile2.png'
 import imgGithub from '../Images/github_icon.png'
 import imgDownload from '../Images/download_icon.png'
+import Resume from '../Images/Resume.pdf'
 import {useTransition, animated} from 'react-spring'
 function AboutPage(){
     const divStyle = {
@@ -47,7 +48,7 @@ function AboutPage(){
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <div className="rounded-md shadow">
-                    <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+                    <a href={Resume} target="_blank"className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
                       <img src={imgDownload} width="20px" height="20px" /> &nbsp;My Resume
                     </a>
                   </div>
